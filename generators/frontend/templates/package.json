@@ -8,23 +8,37 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.11.16",
+    "@prisma/client": "^4.15.0",
     "@remix-run/css-bundle": "^1.16.1",
     "@remix-run/node": "^1.16.1",
     "@remix-run/react": "^1.16.1",
     "@remix-run/serve": "^1.16.1",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-timeline-animation": "^1.2.3",
+    "react-vertical-timeline-component": "^3.6.0",
+    "useref": "^1.4.4"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.16.1",
     "@remix-run/eslint-config": "^1.16.1",
-    "@types/react": "^18.0.35",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "@types/react-vertical-timeline-component": "^3.3.3",
     "eslint": "^8.38.0",
+    "prisma": "^4.15.0",
+    "tailwindcss": "^3.3.2",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.4"
   },
   "engines": {
     "node": ">=14"
+  },
+  "prisma": {
+    "seed": "ts-node --require tsconfig-paths/register prisma/seed.ts"
   }
 }
