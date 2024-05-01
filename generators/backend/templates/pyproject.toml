@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = "Jim Clair's Portfolio Website"
+authors = ["jamesclair <clair.james88@gmail.com>"]
+license = "AGPL-3.0 © [jimclair](https://github.com/jimclair)"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.98.0"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+kafka-python = "^2.0.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

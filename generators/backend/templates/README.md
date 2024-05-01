@@ -4,4 +4,7 @@ Monorepo for Rialc, a multi-language, containerized, microservice-based, cloud-n
 
 - [Test](#test)
 
-## Test
+## PreReqs
+
+- install asdf
+- install poetry
